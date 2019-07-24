@@ -126,7 +126,7 @@ input[type=submit]:visited {
 }
 
 .btn-full:link,
-.btn-full:visited
+.btn-full:visited,
 input[type=submit]:link,
 input[type=submit]:visited {
     background-color: #e67e22;
