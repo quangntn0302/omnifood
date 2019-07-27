@@ -96,4 +96,21 @@ $(document).ready(function() {
         }
     });
 
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 10.8297228,
+        lng: 106.7487342,
+        zoom: 12
+    });
+
+    map.addMarker({
+        lat: 10.8297228,
+        lng: 106.7487342,
+        title: 'HCM, 9 Dist',
+        infoWindow: {
+            content: '<p>Our Ho Chi Minh HQ</p>'
+        }
+    });
+
 });
