@@ -58,7 +58,7 @@
 
     .col { width: 100%; }
 
-    /* .main-nav { display: none; } */
+    .main-nav { display: none; }
 
     .main-nav { 
         float: left; 
